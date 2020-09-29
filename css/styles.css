@@ -1,0 +1,35 @@
+body {
+    padding: 5%;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    background-color: grey;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 2rem;
+    position: relative;
+}
+
+canvas {
+    background-color: #a5ecd7;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.try-again {
+    position: absolute;
+    left: 44%;
+    top: 51%;
+}
+
+.try-again-btn {
+    width: 150px;
+    height: 105px;
+    background-color: #773838;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Gamja Flower', cursive;
+    border-radius: 100%;
+}

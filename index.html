@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Smash Ball</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Smash Ball</h1>
+    </div>
+    <canvas id="canvas" width="1000" height="600"></canvas>
+    <div class="try-again failureDiv hide">
+        <h1 id="failure"></h1>
+        <button onclick="restartGame()" class="try-again-btn" type="button">Try Again</button>
+    </div>
+    <div style="left : 35%" class="try-again successDiv hide">
+        <h1 id="success"></h1>
+        <button onclick="restartGame()" class="try-again-btn" type="button">Try Again</button>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
